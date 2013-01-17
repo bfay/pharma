@@ -1,0 +1,587 @@
+/* Responsive styles */
+/* Up to landscape phone */
+@media (max-width: 767px) {
+	/*------------------------------------------------
+	*  General
+	*-----------------------------------------------*/
+	body {
+		width: 92%;
+		margin: 0 auto;
+		min-width: 100px;
+		-webkit-text-size-adjust: none;
+	}
+
+	/*------------------------------------------------
+	*  Header
+	*-----------------------------------------------*/
+	#header {
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	#header .top-logo {
+		float: none;
+	}
+
+	#header .top-logo img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#header ul {
+		float: none;
+		margin: 15px 0 0 0;
+	}
+
+	#header ul li {
+		margin-left: 3px;
+	}
+
+	/*------------------------------------------------
+	*  Main
+	*-----------------------------------------------*/
+	#main {
+		width: 100%;
+		background: none;
+	}
+
+	#main #sidebar {
+		float: none;
+		width: 100%;
+	}
+
+	#main #content {
+		float: none;
+		width: 100%;
+	}
+
+	.fullwidth #main #content {
+		float: none;
+		width: 100%;
+	}
+
+	.one-sidebar-left #main {
+		background: none;
+	}
+
+	.one-sidebar-left #main #sidebar {
+		float: none;
+		width: 100%;
+	}
+
+	.one-sidebar-left #main #content {
+		float: none;
+	}
+
+	/*------------------------------------------------
+	*  Blog
+	*-----------------------------------------------*/
+	.blog .hentry {
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.blog .hentry h2.post-title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.blog .hentry .post-meta {
+		font-size: 12px;
+		padding-bottom: 15px;
+	}
+
+	.blog .hentry .post-content {
+		margin: 20px 0 0 0;
+	}
+
+	/*------------------------------------------------
+	*  Search
+	*-----------------------------------------------*/
+	.search .hentry {
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.search .hentry h2.post-title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.search .hentry .post-meta {
+		font-size: 12px;
+		padding-bottom: 15px;
+	}
+
+	.search .hentry .post-content {
+		margin: 20px 0 0 0;
+	}
+
+	/*------------------------------------------------
+	*  Archive
+	*-----------------------------------------------*/
+	.archive .hentry {
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.archive .hentry h2.post-title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.archive .hentry .post-meta {
+		font-size: 12px;
+		padding-bottom: 15px;
+	}
+
+	.archive .hentry .post-content {
+		margin: 20px 0 0 0;
+	}
+
+	/*------------------------------------------------
+	*  Page
+	*-----------------------------------------------*/
+	.page .hentry h2.post-title {
+		font-size: 30px;
+		line-height: 38px;
+
+		padding-bottom: 20px;
+	}
+
+	.page .hentry .post-content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/*------------------------------------------------
+	*  Error 404
+	*-----------------------------------------------*/
+	.error404 .hentry h2.post-title {
+		font-size: 30px;
+		line-height: 38px;
+
+		padding-bottom: 20px;
+	}
+
+	.error404 .hentry .post-content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/*------------------------------------------------
+	*  Post
+	*-----------------------------------------------*/
+	.single .hentry h2.post-title {
+		font-size: 30px;
+		line-height: 38px;
+	}
+
+	.single .hentry .post-meta {
+		font-size: 12px;
+	
+		margin-top: 10px;
+		padding-bottom: 25px;
+	}
+
+	.single .hentry .post-content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/*------------------------------------------------
+	*  Single Sections
+	*-----------------------------------------------*/
+	.section-about-the-author {
+		padding-top: 30px;
+	}
+
+	.section-about-the-author .author-avatar {
+		margin: 0 15px 15px 0;
+	}
+
+	.section-about-the-author .author-content {
+		float: none;
+		width: 100%;
+		padding: 2px 0 0 0;
+	}
+
+	.fullwidth .section-about-the-author .author-content {
+		width: 100%;
+	}
+
+	/*------------------------------------------------
+	*  Commments Section
+	*-----------------------------------------------*/
+	#comments {
+		margin-top: 30px;
+		padding-top: 30px;
+	}
+
+	#comments ul.commentlist li.comment table {
+		padding-bottom: 30px;
+	}
+
+	/*------------------------------------------------
+	*  Comment Form
+	*-----------------------------------------------*/
+	#respond input[type="text"] {
+		width: 91%;
+	}
+
+	#respond textarea {
+		width: 91%;
+	}
+
+	/*------------------------------------------------
+	*  Sidebar
+	*-----------------------------------------------*/
+	#sidebar {
+		margin-top: 30px;
+		padding-top: 30px;
+		background: url('../images/left-dot.png') top left repeat-x;
+	}
+
+	#sidebar .widget-container {
+		margin-bottom: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 25px;
+	}
+
+	.one-sidebar-left #sidebar .widget-container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#sidebar .widget-container.widget_search form {
+		width: 100%;
+	}
+
+	#sidebar .widget-container.widget_search form input[type="text"] {	
+		width: 79%;
+		padding-right: 50px;
+	}
+
+	#sidebar .widget-container.widget_search form input[type="submit"] {
+		top: 13px;
+		right: 7%;
+	}
+
+	/*------------------------------------------------
+	*  Footer
+	*-----------------------------------------------*/
+	#footer {
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	#footer span.theme-name {
+		float: none;
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+
+/* Landscape phone to small desktop and portrait tablet */
+@media (min-width: 768px) and (max-width: 979px) {
+	/*------------------------------------------------
+	*  General
+	*-----------------------------------------------*/
+	body {
+		width: 92%;
+		margin: 0 auto;
+		min-width: 100px;
+	}
+
+	/*------------------------------------------------
+	*  Header
+	*-----------------------------------------------*/
+	#header {
+		width: 100%;
+		padding-top: 30px;
+	}
+
+	#header .top-logo {
+		float: none;
+	}
+
+	#header .top-logo img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#header ul {
+		float: none;
+		margin: 15px 0 0 0;
+	}
+
+	#header ul li {
+		margin-left: 3px;
+	}
+
+	/*------------------------------------------------
+	*  Main
+	*-----------------------------------------------*/
+	#main {
+		width: 100%;
+		background: none;
+	}
+
+	#main #sidebar {
+		float: none;
+		width: 100%;
+	}
+
+	#main #content {
+		float: none;
+		width: 100%;
+	}
+
+	.fullwidth #main #content {
+		float: none;
+		width: 100%;
+	}
+
+	.one-sidebar-left #main {
+		background: none;
+	}
+
+	.one-sidebar-left #main #sidebar {
+		float: none;
+		width: 100%;
+	}
+
+	.one-sidebar-left #main #content {
+		float: none;
+	}
+
+	/*------------------------------------------------
+	*  Blog
+	*-----------------------------------------------*/
+	.blog .hentry {
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.blog .hentry h2.post-title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.blog .hentry .post-meta {
+		font-size: 12px;
+		padding-bottom: 15px;
+	}
+
+	.blog .hentry .post-thumb img {
+		float: left;
+		width: 300px;
+		height: auto;
+		margin: 8px 15px 15px 0;
+	}
+
+	.blog .hentry .post-content {
+		margin: 20px 0 0 0;
+	}
+
+	/*------------------------------------------------
+	*  Search
+	*-----------------------------------------------*/
+	.search .hentry {
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.search .hentry h2.post-title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.search .hentry .post-meta {
+		font-size: 12px;
+		padding-bottom: 15px;
+	}
+
+	.search .hentry .post-thumb img {
+		float: left;
+		width: 300px;
+		height: auto;
+		margin: 8px 15px 15px 0;
+	}
+
+	.search .hentry .post-content {
+		margin: 20px 0 0 0;
+	}
+
+	/*------------------------------------------------
+	*  Archive
+	*-----------------------------------------------*/
+	.archive .hentry {
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.archive .hentry h2.post-title {
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.archive .hentry .post-meta {
+		font-size: 12px;
+		padding-bottom: 15px;
+	}
+
+	.archive .hentry .post-thumb img {
+		float: left;
+		width: 300px;
+		height: auto;
+		margin: 8px 15px 15px 0;
+	}
+
+	.archive .hentry .post-content {
+		margin: 20px 0 0 0;
+	}
+
+	/*------------------------------------------------
+	*  Page
+	*-----------------------------------------------*/
+	.page .hentry h2.post-title {
+		font-size: 30px;
+		line-height: 38px;
+
+		padding-bottom: 20px;
+	}
+
+	.page .hentry .post-content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/*------------------------------------------------
+	*  Error 404
+	*-----------------------------------------------*/
+	.error404 .hentry h2.post-title {
+		font-size: 30px;
+		line-height: 38px;
+
+		padding-bottom: 20px;
+	}
+
+	.error404 .hentry .post-content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/*------------------------------------------------
+	*  Post
+	*-----------------------------------------------*/
+	.single .hentry h2.post-title {
+		font-size: 30px;
+		line-height: 38px;
+	}
+
+	.single .hentry .post-meta {
+		font-size: 12px;
+	
+		margin-top: 10px;
+		padding-bottom: 25px;
+	}
+
+	.single .hentry .post-content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/*------------------------------------------------
+	*  Single Sections
+	*-----------------------------------------------*/
+	.section-about-the-author {
+		padding-top: 30px;
+	}
+
+	.section-about-the-author .author-avatar {
+		margin: 0 15px 15px 0;
+	}
+
+	.section-about-the-author .author-content {
+		float: none;
+		width: 100%;
+		padding: 2px 0 0 0;
+	}
+
+	.fullwidth .section-about-the-author .author-content {
+		width: 100%;
+	}
+
+	/*------------------------------------------------
+	*  Commments Section
+	*-----------------------------------------------*/
+	#comments {
+		margin-top: 30px;
+		padding-top: 30px;
+	}
+
+	#comments ul.commentlist li.comment table {
+		padding-bottom: 30px;
+	}
+
+	/*------------------------------------------------
+	*  Comment Form
+	*-----------------------------------------------*/
+	#respond input[type="text"] {
+		width: 70%;
+	}
+
+	#respond textarea {
+		width: 95%;
+	}
+
+	/*------------------------------------------------
+	*  Sidebar
+	*-----------------------------------------------*/
+	#sidebar {
+		margin-top: 30px;
+		padding-top: 30px;
+		background: url('../images/left-dot.png') top left repeat-x;
+	}
+
+	#sidebar .widget-container {
+		width: 45%;
+		margin-bottom: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 25px;
+	}
+	
+	#sidebar .widget-container:nth-child(odd) {
+		float: right;
+	}
+
+	.one-sidebar-left #sidebar .widget-container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	#sidebar .widget-container.widget_search form {
+		width: 100%;
+	}
+
+	#sidebar .widget-container.widget_search form input[type="text"] {	
+		width: 79%;
+		padding-right: 50px;
+	}
+
+	#sidebar .widget-container.widget_search form input[type="submit"] {
+		top: 13px;
+		right: 7%;
+	}
+
+	/*------------------------------------------------
+	*  Footer
+	*-----------------------------------------------*/
+	#footer {
+		width: 100%;
+		padding-top: 30px;
+	}
+}

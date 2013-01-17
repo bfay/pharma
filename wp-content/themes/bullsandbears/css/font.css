@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'Ariston';
+    src: url('ariston-normal-webfont.eot');
+    src: url('ariston-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ariston-normal-webfont.woff') format('woff'),
+         url('ariston-normal-webfont.ttf') format('truetype'),
+         url('ariston-normal-webfont.svg#Ariston') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

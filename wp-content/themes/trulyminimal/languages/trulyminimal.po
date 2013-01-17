@@ -1,0 +1,329 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: loop-single.php:16
+#: comments.php:64
+#: loop.php:16
+msgid "% comments"
+msgstr ""
+
+#. Text in function
+#: includes/plugins/plugin.about-author.php:1
+#: sections/single/single.authordetails.php:13
+#: sections/page/page.authordetails.php:13
+msgid "%1$s Posts"
+msgstr ""
+
+#. Text in function
+#: sections/category/category.title.php:3
+#: sections/tag/tag.title.php:3
+msgid "%s articles"
+msgstr ""
+
+#. Text in function
+#: sections/author/author.biographical.php:11
+#: sections/author/author.biographical.php:20
+msgid "%s posts"
+msgstr ""
+
+#. Text in function
+#: sections/search/search.title.php:3
+msgid "%s results"
+msgstr ""
+
+#. Text in function
+#: comments.php:91
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in function
+#: includes/settings.pagination.php:8
+msgid "&larr; older entries"
+msgstr ""
+
+#. Text in function
+#: includes/functions.php:1
+msgid "&nbsp;&nbsp;submit &rarr;"
+msgstr ""
+
+#. Text in function
+#: loop-single.php:16
+#: comments.php:64
+#: loop.php:16
+msgid "0 comments"
+msgstr ""
+
+#. Text in function
+#: loop-single.php:16
+#: comments.php:64
+#: loop.php:16
+msgid "1 comment"
+msgstr ""
+
+#. Text in function
+#: sections/category/category.title.php:5
+msgid "Articles posted in <span>%s</span>"
+msgstr ""
+
+#. Text in echo
+#: sections/archive/archive.title.php:9
+msgid "Blog Archives"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "Cancel reply"
+msgstr ""
+
+#. Text in echo
+#: loop-single.php:29
+msgid "Categories:"
+msgstr ""
+
+#. Text in echo
+#: comments.php:102
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: loop.php:26
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#. Text in function
+#: sections/archive/archive.title.php:3
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#. Text in function
+#: loop-attachment.php:18
+msgid "Full size is %s pixels"
+msgstr ""
+
+#. Text in echo
+#: loop-error404.php:6
+msgid "If you still can\\'t find what you\\'re looking for, try using the search from."
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "Leave a comment"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "Leave a reply"
+msgstr ""
+
+#. Text in echo
+#: comments.php:63
+msgid "Leave a reply &rarr;"
+msgstr ""
+
+#. Text in function
+#: loop-attachment.php:18
+msgid "Link to full-size image"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "Logged in as <a href=\"%s\">%s</a>. <a href=\"%s\" title=\"Log out of this account\">Log out?</a></p>"
+msgstr ""
+
+#. Text in function
+#: sections/archive/archive.title.php:5
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#. Text in function
+#: comments.php:92
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: includes/settings.shortcodes.php:1
+msgid "No related posts found"
+msgstr ""
+
+#. Text in echo
+#: loop-error404-search.php:2
+msgid "No results found"
+msgstr ""
+
+#. Text in function
+#: includes/functions.php:1
+msgid "Page %s"
+msgstr ""
+
+#. Text in echo
+#: loop-error404.php:2
+msgid "Page not found"
+msgstr ""
+
+#. Text in function
+#: loop-single.php:25
+#: loop-page.php:9
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: includes/functions.php:1
+msgid "Password:"
+msgstr ""
+
+#. Text in function
+#: loop-attachment.php:3
+#: loop.php:2
+#: loop.php:26
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in function
+#: sections/author/author.biographical.php:22
+msgid "Posts by <span>%s</span>"
+msgstr ""
+
+#. Text in function
+#: comments.php:48
+msgid "Reply &rarr;"
+msgstr ""
+
+#. Text in function
+#: loop-attachment.php:29
+msgid "Return to %s"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/widget.search.php:27
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#. Text in function
+#: sections/search/search.title.php:5
+msgid "Search results for <span>%s</span>"
+msgstr ""
+
+#. Text in echo
+#: loop-error404-search.php:5
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#. Text in function
+#: sections/tag/tag.title.php:5
+msgid "Tag <span>%s</span>"
+msgstr ""
+
+#. Text in function
+#: loop-single.php:29
+msgid "Tags:"
+msgstr ""
+
+#. Text in echo
+#: comments.php:69
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in function
+#: includes/functions.php:1
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#. Text in function
+#: includes/plugins/plugin.about-author.php:1
+#: sections/single/single.authordetails.php:13
+#: sections/page/page.authordetails.php:13
+msgid "View all posts &rarr;"
+msgstr ""
+
+#. Text in echo
+#: loop-error404.php:5
+msgid "We\\'re very sorry, but that page doesn\\'t exist or has been moved. Please make sure you have the right URL."
+msgstr ""
+
+#. Text in function
+#: sections/archive/archive.title.php:7
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. Text in function
+#: includes/settings.shortcodes.php:1
+msgid "You must be registered to see this text"
+msgstr ""
+
+#. Text in echo
+#: comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "Your email is <em>never</em> published or shared."
+msgstr ""
+
+#. Text in echo
+#: loop-single.php:6
+#: loop-attachment.php:7
+#: loop.php:6
+msgid "by"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "e-mail address"
+msgstr ""
+
+#. Text in echo
+#: searchform.php:3
+msgid "enter search term"
+msgstr ""
+
+#. Text in function
+#: includes/settings.pagination.php:9
+msgid "newer entries &rarr;"
+msgstr ""
+
+#. Text in echo
+#: loop-single.php:11
+#: loop-attachment.php:12
+#: loop.php:11
+msgid "on"
+msgstr ""
+
+#. Text in function
+#: comments.php:35
+msgid "on %s at %s"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "submit your reply"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "website url"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "your comment"
+msgstr ""
+
+#. Text in function
+#: comments.php:108
+msgid "your name"
+msgstr ""

@@ -1,0 +1,107 @@
+	.featured_image {
+		margin-top:16px;
+	}
+	body {
+		background:url(../images/top.png) left 112px repeat-x;
+	}
+	#content .container{
+		padding:0 8px;
+		width:986px;
+	}
+	#logo {
+		position:absolute;
+		left:50%;
+		margin-left:-113px;
+	}
+	.menusearch {
+		float:right;
+		margin-top:35px;
+		width:210px;
+	}
+	/*------------------------------ MENU ------------------------------*/
+	#secondarymenu-container {
+		height:86px;
+	}
+	#secondarymenu {
+		float:left;
+		background:url(../images/topmenu.png) left top repeat-x;
+		border:1px solid #444242; 
+		height:34px;
+		margin-top:35px;
+	}
+	#secondarymenu li {
+		padding:10px;
+	}
+
+	#mainmenu-container {
+		height:123px;
+		background:url(../images/menu.png) left top no-repeat;
+		margin:20px -6px;
+		padding:1px 42px;
+		width:940px;
+	}
+	#mainmenu li {
+		padding:40px 35px;
+		font-family:'Oswald';
+		font-size:15px;
+	}
+	#mainmenu li:hover {
+		background:url(../images/menuli-active.png) left top no-repeat;
+	}
+	#mainmenu a {
+		display:block;
+	}
+	
+	#mainmenu li ul {
+		top:105px;
+		left:0;
+	}
+	#header li ul  .transparent {
+		background:#fff;
+		opacity: 0.2;
+		filter: alpha(opacity = 20);
+		box-shadow:0 2px 2px #5e5e5e;
+	}
+	#header li ul  .inner {
+		background:url(../images/background.png) left top repeat;
+		margin:3px;
+	}
+	#header ul.children li:hover, .sub-menu li:hover {
+		background:none;
+	}
+	#header ul.children li a, .sub-menu li a {
+		color:#8f8f8f !important;
+	}
+	
+	
+	/*------------------------------ SLIDER ------------------------------*/
+	.slider-container {
+		width:978px;
+		padding:11px;
+		background:#151313;
+		border:1px solid #3a3138;
+	}
+	.slider {
+		position:relative;
+	}
+	.fp-slides,.fp-thumbnail,.fp-slides-items  {
+		height:410px;
+		width:978px;
+	}
+	.slider-nothumb .fp-content-fon {
+		background:#fff;
+	}
+	.slider-nothumb .fp-content a,.slider-nothumb .fp-content p{
+		color:#000;
+	}
+	.fp-nav {
+		bottom:20px;
+		left:auto;
+	}
+
+	
+	/*------------------------------ FOOTER ------------------------------*/
+	#footer .container {
+		padding:0 6px;
+		width:992px;
+	}
